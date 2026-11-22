@@ -1,0 +1,11 @@
+{
+  "site": "copa-cafe",
+  "recorded": "2026-11-22",
+  "purpose": "source for JSON-LD geo in build_pages.py",
+  "chosen": {"lat": 27.6735979, "lon": -97.472375},
+  "method": "The Bend Magazine's CoPa Café write-up carries its own Maps link maps.app.goo.gl/61oUFFjpshvPpMLAA; curl -L 302-resolves to google.com/maps/place/1133+Co+Rd+22,+Corpus+Christi,+TX+78415/@27.6735979,-97.472375 with place entity 0x86688b00546eb54d:0xd5f1ecf8b3b2f3ab — the press outlet's own pin of the address. Map embed q string reuses that exact place query so the embed renders Google's own resolution.",
+  "cross_checks": [
+    {"source": "Nominatim '1133 County Road 22, Corpus Christi, TX 78415'", "result": "empty", "note": "county-road numbering not resolvable at house level in OSM street layer; no conflict, just no hit"}
+  ],
+  "caveat": "Google place label prints '1133 Co Rd 22'; site copy follows the press spelling '1133 County Rd 22' — same road, same pin."
+}

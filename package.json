@@ -1,0 +1,12 @@
+{
+  "name": "copa-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CoPa Café — Corpus Christi TX micro cafe (websites desk, t_9cf90b6f)",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
